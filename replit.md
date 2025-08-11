@@ -2,6 +2,14 @@
 
 This is a modern digital marketing consultancy website built with React and TypeScript. The project provides a professional frontend-only site for "Ivox Scale," a digital marketing agency specializing in scaling businesses through innovative digital strategies. The application features a responsive design with dark/light theme support and internationalization (Portuguese and English).
 
+## Recent Changes (December 2024)
+- ✓ Added deploy optimization configurations (netlify.toml)
+- ✓ Created SPA redirect rules (_redirects file)
+- ✓ Replaced external images with optimized local SVG illustrations
+- ✓ Added SEO files (robots.txt, sitemap.xml)
+- ✓ Optimized build output for frontend-only deployment
+- ✓ Created comprehensive documentation (README.md)
+
 # User Preferences
 
 Preferred communication style: Simple, everyday language.

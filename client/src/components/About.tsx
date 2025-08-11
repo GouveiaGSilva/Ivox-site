@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from '../hooks/useTranslation';
+import aboutIllustration from '../assets/about-illustration.svg';
 
 export function About() {
   const { t } = useTranslation();
@@ -48,7 +49,7 @@ export function About() {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
+              src={aboutIllustration}
               alt="Modern office workspace with collaborative team environment"
               className="rounded-2xl shadow-2xl w-full h-auto"
             />
