@@ -64,7 +64,7 @@ export function Contact() {
           {/* Contact Form */}
           <Card className="bg-slate-50 dark:bg-slate-800 rounded-2xl border-0">
             <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6" netlify>
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
                     {t('contact.form.name')}
